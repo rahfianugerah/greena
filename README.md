@@ -17,7 +17,7 @@
 
 #### Project Overview
 <p align="justify">
-  Commit Wave is an automation tool designed to help developers keep their GitHub contribution history consistently active and engaging. By utilizing GitHub Actions or JavaScript based, this bot automates the process of generating and pushing commits at random intervals [GitHub Action & JavaScript] within a user-defined date range [JavaScript].
+  Commit Wave is an automation tool designed to help developers keep their GitHub contribution history consistently active and engaging. By utilizing GitHub Actions or JavaScript based, this bot automates the process of generating and pushing commits at random intervals (GitHub Action & JavaScript) within a user-defined date range (JavaScript).
 </p>
 
 #### Key Features
@@ -34,14 +34,14 @@ To get started with this project, please refer to the <a href=#installation-guid
 
 #### Disclaimer </b>
 <p align="justify">
-Commit Wave is designed to automate the process of creating commits to GitHub repositories. While this bot can be useful for maintaining a history of active commits, users should be aware of the potential and limitations associated with its use. This bot is intended for educational and experimental purposes. It should not be used to artificially inflate repository activity or misrepresent project progress [<b>only 1 repository that can contain this bot and you're prohibited to insert this bot to other repository</b>].
+Commit Wave is designed to automate the process of creating commits to GitHub repositories. While this bot can be useful for maintaining a history of active commits, users should be aware of the potential and limitations associated with its use. This bot is intended for educational and experimental purposes. It should not be used to artificially inflate repository activity or misrepresent project progress (<b>only 1 repository that can contain this bot and you're prohibited to insert this bot to other repository</b>).
 </p> 
 
 #### Installation Guide
 
 - Clone this repository
 ```
-git clone https://github.com/rahfianugerah/sc-bot
+git clone https://github.com/rahfianugerah/commitwave.git
 ```
 
 #### Usage Instructions
