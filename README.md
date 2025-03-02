@@ -1,4 +1,4 @@
-![Version](https://img.shields.io/badge/Version-1.0.1-green)
+![Version](https://img.shields.io/badge/Version-2.0.1-green)
 ![Maintenance](https://img.shields.io/badge/Maintenance-Yes-green)
 [![MIT license](https://img.shields.io/badge/License-MIT-blue.svg)](https://github.com/rahfianugerah/sch-bot/blob/main/LICENSE)
 ![JavaScript](https://img.shields.io/badge/JavaScript-%23323330.svg?&logo=javascript&logoColor=%23F7DF1E)
@@ -29,7 +29,7 @@
 
 #### Getting Started
 <p align="justify">
-To get started with this project, please refer to the <a href=#installation-guide>Installation Guide</a> and <a href=#usage-instructions>User Instruction</a> in the documentation. For additional information on contributing, please check out the Contributing Guidelines [N/A].
+To get started with this project, please refer to the <a href=#installation-guide>Installation Guide</a> and <a href=#interactive-bot-usage>Interactive Bot Usage</a> in the documentation. For additional information on contributing, please check out the Contributing Guidelines [N/A].
 </p>
 
 #### Disclaimer </b>
@@ -44,17 +44,21 @@ Commit Wave is designed to automate the process of creating commits to GitHub re
 git clone https://github.com/rahfianugerah/commitwave.git
 ```
 
-#### Usage Instructions
-
-- Enter a date range and commit(s)
-```javascript
-//Example Usage startCommitBot(startDate, endDate, commits)
-startCommitBot('2024-06-6', '2024-06-23', 18);
-```
-
 - Run the app
 ```
 npm start
+```
+
+#### Interactive Bot Usage
+
+- Enter a date range and commit(s)
+```javascript
+Commit Wave: Hello! I am your commit bot.
+Commit Wave: Please enter the start date (YYYY-MM-DD): 2025-01-10
+Commit Wave: Please enter the end date (YYYY-MM-DD): 2025-03-02
+Commit Wave: How many commits would you like to make? 10
+Commit Wave: Great! I will make 10 commits from 2025-01-10 to 2025-03-02.
+Commit Wave: Starting commits between Fri Jan 10 2025 and Sun Mar 02 2025...
 ```
 
 #### Bot Script (Github Actions Script)
@@ -64,7 +68,7 @@ The Commit Wave project leverages a GitHub Actions script to automate commit ope
 </p>
 
 ```yml
-name: Bot
+name: Commit Wave
 
 on:
   schedule:
@@ -123,6 +127,8 @@ on:
 <p align="justify">
 This project is licensed under the MIT License. This means you are free to use, copy, modify, merge, publish, distribute, sublicense, and/or sell copies of the Software. The full text of the license is available in the <a href="https://github.com/rahfianugerah/commitwave/blob/main/LICENSE">LICENSE</a> file. By using this project, you agree to include the license notice and disclaimers in all copies or substantial portions of the Software. For more details on the terms and conditions of the MIT License, please refer to the license file.
 </p>
+
+---
 
 #### Project Author
 GitHub: [@rahfianugerah](https://www.github.com/rahfianugerah)
