@@ -1,4 +1,4 @@
-name: Scheduled Commit Bot
+name: Commit Wave
 
 on:
   # Setting up the time
