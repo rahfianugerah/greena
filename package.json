@@ -1,19 +1,12 @@
 {
-  "name": "sc-bot",
-  "version": "1.0.1",
-  "description": "Scheduled Commit Bot",
+  "name": "commitwave",
+  "version": "2.0.1",
+  "description": "Automated Github Commits Bot",
   "main": "core/index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "start": "node core/index.js"
+    "start": "node index.js"
   },
   "author": "Naufal Rahfi Anugerah",
-  "license": "MIT",
-  "dependencies": {
-    "fs": "^0.0.1-security",
-    "jsonfile": "^6.1.0",
-    "moment": "^2.30.1",
-    "random": "^4.1.0",
-    "simple-git": "^3.25.0"
-  }
+  "license": "MIT"
 }
