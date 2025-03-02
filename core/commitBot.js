@@ -14,9 +14,9 @@ function makeCommit(n, startDate, endDate) {
   if (n <= 0) {
     try {
       const pushResult = gitPush();
-      console.log("Bot: All commits are done. Pushed to remote successfully:\n", pushResult);
+      console.log("Commit Wave: All commits are done. Pushed to remote successfully:\n", pushResult);
     } catch (error) {
-      console.error("Bot: Error pushing to remote:", error.message);
+      console.error("Commit Wave: Error pushing to remote:", error.message);
     }
     return;
   }
@@ -31,9 +31,9 @@ function makeCommit(n, startDate, endDate) {
   try {
     gitAdd(TEMP_FILE_PATH);
     gitCommit(formattedDate, formattedDate);
-    console.log(`Bot: Committed with date: ${formattedDate}`);
+    console.log(`Commit Wave: Committed with date: ${formattedDate}`);
   } catch (error) {
-    console.error("Bot: Error during commit:", error.message);
+    console.error("Commit Wave: Error during commit:", error.message);
   }
 
   // Recur for the next commit.
@@ -44,10 +44,11 @@ function makeCommit(n, startDate, endDate) {
  * Starts the commit bot by converting the provided string dates
  * into Date objects and beginning the commit process.
  */
+
 function startCommitBot(startDateStr, endDateStr, numberOfCommits) {
   const startDate = new Date(startDateStr);
   const endDate = new Date(endDateStr);
-  console.log(`Bot: Starting commits between ${startDate.toDateString()} and ${endDate.toDateString()}...`);
+  console.log(`Commit Wave: Starting commits between ${startDate.toDateString()} and ${endDate.toDateString()}...`);
   makeCommit(numberOfCommits, startDate, endDate);
 }
 
