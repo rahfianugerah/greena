@@ -64,7 +64,7 @@ The Commit Wave project leverages a GitHub Actions script to automate commit ope
 </p>
 
 ```yml
-name: Bot
+name: Commit Wave
 
 on:
   schedule:
@@ -123,6 +123,8 @@ on:
 <p align="justify">
 This project is licensed under the MIT License. This means you are free to use, copy, modify, merge, publish, distribute, sublicense, and/or sell copies of the Software. The full text of the license is available in the <a href="https://github.com/rahfianugerah/commitwave/blob/main/LICENSE">LICENSE</a> file. By using this project, you agree to include the license notice and disclaimers in all copies or substantial portions of the Software. For more details on the terms and conditions of the MIT License, please refer to the license file.
 </p>
+
+---
 
 #### Project Author
 GitHub: [@rahfianugerah](https://www.github.com/rahfianugerah)
